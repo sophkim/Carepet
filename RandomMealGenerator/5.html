@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soba</title>
+</head>
+<body>
+    <h1>Have you decided?</h1>
+    <h4>Get a random meal by clicking below.</h4>
+    <input type="button" onclick="randomMenu();" value="GET MEAL"/>
+    <script>
+        var pages = new Array('1.html','2.html','3.html','4.html','5.html');
+
+        function randomMenu() {
+                window.location = pages[Math.floor(pages.length*Math.random())];
+        }
+    </script>
+    
+    <h1>Soba</h1>
+    <img src="soba.jpg" width="500" height="350"/>
+    <p>
+        Soba ( Japanese :蕎麦, そば) is a Japanese dish in which noodles made from buckwheat flour are dipped in hot broth or cold soy sauce with radish , green onion, and wasabi . Buckwheat began to be made into noodles in the late 16th and early 17th centuries.
+    </p>
+    <p>Category : rice<br>
+        Area : Korea
+    </p>
+    <p>Ingredients<br>
+        - noodle<br>
+        - beef stock<br>
+        - soy source<br>
+        - wasabi<br>
+    <h2>How to make Soba?</h2>
+    <iframe width="700" height="400"
+    src="https://www.youtube.com/embed/l8BCDXkwHwI"></iframe>
+
+
+</body>
+</html>

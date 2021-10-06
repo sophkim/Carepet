@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Meal Generator</title>
+</head>
+<body>
+    <h1>Have you decided?</h1>
+    <h4>Get a random meal by clicking below.</h4>
+    <input type="button" onclick="randomMenu();" value="GET MEAL"/>
+    <script>
+        var pages = new Array('1.html','2.html','3.html','4.html','5.html');
+
+        function randomMenu() {
+            window.location = pages[Math.floor(pages.length*Math.random())];
+        }
+    </script>
+</body>
+</html>

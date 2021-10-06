@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bulgogi</title>
+</head>
+<body>
+    <h1>Have you decided?</h1>
+    <h4>Get a random meal by clicking below.</h4>
+    <input type="button" onclick="randomMenu();" value="GET MEAL"/>
+    <script>
+        var pages = new Array('1.html','2.html','3.html','4.html','5.html');
+
+        function randomMenu() {
+            window.location = pages[Math.floor(pages.length*Math.random())];
+        }
+    </script>
+    
+    <h1>Bulgogi</h1>
+    <img src="Bulgogi.jpg" width="500" height="350"/>
+    <p>
+        Bulgogi ( English : Bulgogi ) is a traditional Korean meat dish made by marinating beef in seasoning and adding vegetables . Those made with pork are called pork bulgogi. For roasting, parts such as tenderloin or sirloin are most often used because the meat, which has little connective tissue and is interspersed with fat, is tasty and tender .
+    </p>
+    <p>Category : Beef<br>
+        Area : Korea
+    </p>
+    <p>Ingredients<br>
+        - soy source<br>
+        - beef<br>
+        - sugar<br>
+        - carrot<br>
+        - onion<br>
+        - green onion<br>
+    <h2>How to make Bulgogi?</h2>
+    <iframe width="700" height="400"
+    src="https://www.youtube.com/embed/dRrkWLOfxp0"></iframe>></iframe>
+
+</body>
+</html>

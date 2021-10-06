@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bibimbab</title>
+</head>
+<body>
+    <h1>Have you decided?</h1>
+    <h4>Get a random meal by clicking below.</h4>
+    <input type="button" onclick="randomMenu(self);" value="GET MEAL"/>
+    <script>
+        var pages = new Array('1.html','2.html','3.html','4.html','5.html');
+
+        function randomMenu() {
+            window.location = pages[Math.floor(pages.length*Math.random())];
+        }
+    </script>
+    
+    <h1>Bibimbab</h1>
+    <img src="bibimbap.jpg" width="500" height="350"/>
+    <p>
+        Bibimbap or agitation is typical Korea cuisine in one of rice to the meat or vegetables , eggs as hot pepper paste , sesame oil , etc. Seasoning eat rubbing the mixture into the food is. It is also called Bibimbap , Jesabbap , or Gooldongban . Also, in the royal court , it was called bibim .
+    </p>
+    <p>Category : rice<br>
+        Area : Korea
+    </p>
+    <p>Ingredients<br>
+        - rice<br>
+        - beef<br>
+        - egg<br>
+        - carrot<br>
+        - gochu-jang<br>
+        - sesame oil<br>
+    <h2>How to make Bibimbab?</h2>
+    <iframe width="700" height="400"
+    src="https://www.youtube.com/embed/PmWLcTLAFys"></iframe>
+
+</body>
+</html>

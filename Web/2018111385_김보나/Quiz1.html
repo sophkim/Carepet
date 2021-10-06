@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2018111385 김보나</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="first">
+        <div class="logo"><a href="http://www.swu.ac.kr"><img src="logo.jpg" alt="서울여대 로고" width="50"></a></div>
+        <div class="text"><h1>서울여자대학교</h1></div>
+    </div>
+
+    <div class="second">
+        <div class="login"><h2>회원가입 시스템&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2></div>
+        <div class="dept"><a href="Quiz1-sub.html"><h3>학과소개</h3></a></div>
+    </div>
+
+    <div class="line">
+        <hr>
+    </div>
+    
+    <form>
+        <fieldset class="tb">
+            <legend>입력 양식</legend>
+            <table>
+                <tr>
+                    <td><label for="username"><b>이름</b></label></td>
+                    <td><input id="username" type="text" name="username"></label></td>
+                </tr>
+                <tr>
+                    <td><b>성별</b></td>
+                    <td>
+                        <input id="man" type="radio" name="gender" value="m">
+                        <label for="man">남자</label>
+                        <input id="woman" type="radio" name="gender" value="w">
+                        <label for="woman">여자</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>학과</b></td>
+                    <td>
+                        <select>
+                            <optgroup label="인문대학">
+                                <option>국어국문학과</option>
+                                <option>영어영문학과</option>
+                                <option>불어불문학과</option>
+                                <option>독어독문학과</option>
+                                <option>중어중문학과</option>
+                                <option>일어일문학과</option>
+                                <option>사학과</option>
+                                <option>기독교학과</option>
+                            </optgroup>
+                            <optgroup label="사회과학대학">
+                                <option>경제학과</option>
+                                <option>문헌정보학과</option>
+                                <option>사회복지학과</option>
+                                <option>아동학과</option>
+                                <option>행정학과</option>
+                                <option>언론영상학부</option>
+                                <option>교육심리학과</option>
+                                <option>스포츠운동과학과</option>
+                            </optgroup>
+                            <optgroup label="자연과학대학">
+                                <option>수학과</option>
+                                <option>화학생명환경과학부</option>
+                                <option>원예생명조경학과</option>
+                                <option>식품응용시스템학부</option>
+                            </optgroup>
+                            <optgroup label="미래산업융합대학">
+                                <option>경영학과</option>
+                                <option>패션산업학과</option>
+                                <option>디지털미디어학과</option>
+                                <option>정보보호학과</option>
+                                <option>소프트웨어융합학과</option>
+                                <option>데이터사이언스학과</option>
+                                <option>산업디자인학과</option>
+                                <option>컴퓨터학과(*)</option>
+                                <option>콘텐츠디자인학과(*)</option>
+                            </optgroup>
+                            <optgroup label="아트앤디자인스쿨">
+                                <option>현대미술전공</option>
+                                <option>공예전공</option>
+                                <option>시각디자인전공</option>
+                                <option>첨단미디어디자인전공</option>
+                            </optgroup>
+                            <optgroup label="자율전공학부">
+                                <option>자율전공학부</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mail"><b>이메일</b></label></td>
+                    <td><input id="mail" type="text" name="email"></label></td>
+                </tr>
+                <tr>
+                    <td><b>휴대폰</b></td>
+                    <td>
+                        <select>
+                            <option>010</option>
+                        </select>
+                        <label for="num">-</label>
+                        <input id="num" type="text" name="num"></label>
+                        <label for="num2">-</label>
+                        <input id="num2" type="text" name="num2"></label></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>소식알람</b></td>
+                    <td>
+                        <input id="text" type="checkbox" name="alarm" value="text">
+                        <label for="text">문자</label>
+                        <input id="kakao" type="checkbox" name="alarm" value="kakao">
+                        <label for="kakao">카카오톡</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>가입 사유</b></td>
+                    <td>
+                        <label for="reason"></label>
+                        <textarea id="reason" name="reason" rows="10" col="40"></textarea><br>
+                        <input type="submit" value="제출">
+                    </td>
+                </tr>
+            </table>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
